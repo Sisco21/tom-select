@@ -124,7 +124,7 @@ function configCore( input, filename, plugins ){
 	var output = {
 		name: 'TomSelect',
 		file: `build/js/${filename}`,
-		footer: 'var tomSelect=function(el,opts){return new TomSelect(el,opts);} ',
+		//footer: 'var tomSelect=function(el,opts){return new TomSelect(el,opts);} ',
 	};
 
 	var config = createConfig( input, output, plugins);
